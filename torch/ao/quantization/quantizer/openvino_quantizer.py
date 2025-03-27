@@ -11,7 +11,6 @@ from torch.ao.quantization.quantizer.quantizer import QuantizationSpecBase as To
 from torch.ao.quantization.quantizer.quantizer import Quantizer as TorchAOQuantizer
 from torch.ao.quantization.quantizer.quantizer import SharedQuantizationSpec as TorchAOSharedQuantizationSpec
 
-import nncf
 from nncf.common.graph.graph import NNCFGraph
 from nncf.common.logging import nncf_logger
 from nncf.common.quantization.quantizer_propagation.solver import QuantizerPropagationRule
